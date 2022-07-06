@@ -24,5 +24,5 @@ decision tree classifier is found. 10 different partitions of data to training s
 and test set are used. 
 
 ### Test result
-####Average accuracy for MLP = 81.51%
-####Average accuracy for decision tree classifier = 75.92%
+Average accuracy for MLP = 81.51%\
+Average accuracy for decision tree classifier = 75.92%
