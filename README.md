@@ -17,7 +17,7 @@ used to transform the test set. 25% of data is used as test set and 75% as
 training set.  
 A multi-layer perceptron with 2 hidden layers in TensorFlow is used in 
 classification.
-The result of MLP is compared with the result of decision tree classifier in
+The result of MLP from TensorFlow is compared with the result of decision tree classifier in
 scikit-learn. The default settings are used for the decision tree classifer.
 The experiment is repeated for 10 times and the average accuracy for MLP and 
 decision tree classifier is found. 10 different partitions of data to training set

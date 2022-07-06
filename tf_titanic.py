@@ -65,15 +65,9 @@ print('TensorFlow: test Accuracy: %.4f' % acc)
 
 cls_tree = DecisionTreeClassifier()
 cls_tree = cls_tree.fit(X_train, y_train)
-score = cls_tree.score(X_test, y_test)
-print('Decision tree: test accuracy: %.4f' % score)
+sc = cls_tree.score(X_test, y_test)
+print('Decision tree: test accuracy: %.4f' % sc)
 
-fp = open('res.txt', 'a')
-fp.write(str(acc))
-fp.write('\n')
-fp.write(str(score))
-fp.write('\n')
-fp.close()
 
 
 
